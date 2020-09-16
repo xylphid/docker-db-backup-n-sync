@@ -15,7 +15,7 @@ To backup multiple databases, please provide `db.backup.multiple` label to the d
 
 ## Supported tags
 
-* `latest`, `1.0` ([Dockerfile](https://github.com/xylphid/docker-db-backup-n-sync/blob/master/Dockerfile)))
+* `latest`, `1.0` ([Dockerfile](https://github.com/xylphid/docker-db-backup-n-sync/blob/release/Dockerfile))
 
 ## How to use this image
 
@@ -76,4 +76,4 @@ services:
 
 ## Image inheritance
 
-This docker image inherits from [docker](https://hub.docker.com/_/docker/) image.
+This docker image inherits from [xylphid/backup](https://hub.docker.com/r/xylphid/backup/) image.
