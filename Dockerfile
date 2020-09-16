@@ -1,4 +1,4 @@
-FROM registry.xylphid.net/backup:1.3
+FROM xylphid/backup:1.3
 
 ARG VERSION
 ENV VERSION ${VERSION:-"nightly"}
